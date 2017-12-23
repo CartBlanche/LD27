@@ -9,26 +9,74 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD27.Mono.Windows", "LD27.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD27.Mono.Linux", "LD27.Mono.Linux\LD27.Mono.Linux.csproj", "{7B620BFB-0755-4975-9445-A7A23776C13C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.MacOS", "..\..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.MacOS.csproj", "{36C538E6-C32A-4A8D-A39C-566173D7118E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.Net.MacOS", "..\..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.Net.MacOS.csproj", "{1294038B-66C2-4359-AFE9-EA06A758CA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.Linux", "..\..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.Linux.csproj", "{35253CE1-C864-4CD3-8249-4D1319748E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD27.Mono.Mac", "LD27.Mono.Mac\LD27.Mono.Mac.csproj", "{3D29A1A3-30A1-46C9-8560-336D97A3AFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD27.Xamarin.Mac", "LD27.Xamarin.Mac\LD27.Xamarin.Mac.csproj", "{047E9A33-AD18-4440-ADB9-3AE1F7285BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
+		AppStore|x86 = AppStore|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{694A4093-90D5-4843-9CEA-58B7795A06CE}.Debug|x86.ActiveCfg = Debug|x86
 		{694A4093-90D5-4843-9CEA-58B7795A06CE}.Debug|x86.Build.0 = Debug|x86
 		{694A4093-90D5-4843-9CEA-58B7795A06CE}.Release|x86.ActiveCfg = Release|x86
 		{694A4093-90D5-4843-9CEA-58B7795A06CE}.Release|x86.Build.0 = Release|x86
+		{694A4093-90D5-4843-9CEA-58B7795A06CE}.AppStore|x86.ActiveCfg = Debug|x86
+		{694A4093-90D5-4843-9CEA-58B7795A06CE}.AppStore|x86.Build.0 = Debug|x86
 		{FF52538C-9EF6-4F39-B01C-E42E54F0228C}.Debug|x86.ActiveCfg = Debug|x86
 		{FF52538C-9EF6-4F39-B01C-E42E54F0228C}.Release|x86.ActiveCfg = Release|x86
+		{FF52538C-9EF6-4F39-B01C-E42E54F0228C}.AppStore|x86.ActiveCfg = AppStore|Any CPU
 		{A7B7D633-5184-421C-B50B-1C84AF979035}.Debug|x86.ActiveCfg = Debug|x86
 		{A7B7D633-5184-421C-B50B-1C84AF979035}.Debug|x86.Build.0 = Debug|x86
 		{A7B7D633-5184-421C-B50B-1C84AF979035}.Release|x86.ActiveCfg = Release|x86
 		{A7B7D633-5184-421C-B50B-1C84AF979035}.Release|x86.Build.0 = Release|x86
+		{A7B7D633-5184-421C-B50B-1C84AF979035}.AppStore|x86.ActiveCfg = Debug|x86
+		{A7B7D633-5184-421C-B50B-1C84AF979035}.AppStore|x86.Build.0 = Debug|x86
 		{7B620BFB-0755-4975-9445-A7A23776C13C}.Debug|x86.ActiveCfg = Debug|x86
 		{7B620BFB-0755-4975-9445-A7A23776C13C}.Debug|x86.Build.0 = Debug|x86
 		{7B620BFB-0755-4975-9445-A7A23776C13C}.Release|x86.ActiveCfg = Release|x86
 		{7B620BFB-0755-4975-9445-A7A23776C13C}.Release|x86.Build.0 = Release|x86
+		{7B620BFB-0755-4975-9445-A7A23776C13C}.AppStore|x86.ActiveCfg = Debug|x86
+		{7B620BFB-0755-4975-9445-A7A23776C13C}.AppStore|x86.Build.0 = Debug|x86
+		{36C538E6-C32A-4A8D-A39C-566173D7118E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{36C538E6-C32A-4A8D-A39C-566173D7118E}.Debug|x86.Build.0 = Debug|Any CPU
+		{36C538E6-C32A-4A8D-A39C-566173D7118E}.Release|x86.ActiveCfg = Release|Any CPU
+		{36C538E6-C32A-4A8D-A39C-566173D7118E}.Release|x86.Build.0 = Release|Any CPU
+		{36C538E6-C32A-4A8D-A39C-566173D7118E}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{36C538E6-C32A-4A8D-A39C-566173D7118E}.AppStore|x86.Build.0 = Debug|Any CPU
+		{1294038B-66C2-4359-AFE9-EA06A758CA94}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1294038B-66C2-4359-AFE9-EA06A758CA94}.Debug|x86.Build.0 = Debug|Any CPU
+		{1294038B-66C2-4359-AFE9-EA06A758CA94}.Release|x86.ActiveCfg = Release|Any CPU
+		{1294038B-66C2-4359-AFE9-EA06A758CA94}.Release|x86.Build.0 = Release|Any CPU
+		{1294038B-66C2-4359-AFE9-EA06A758CA94}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{1294038B-66C2-4359-AFE9-EA06A758CA94}.AppStore|x86.Build.0 = Debug|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|x86.Build.0 = Debug|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x86.ActiveCfg = Release|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x86.Build.0 = Release|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.AppStore|x86.Build.0 = Debug|Any CPU
+		{3D29A1A3-30A1-46C9-8560-336D97A3AFD3}.Debug|x86.ActiveCfg = Debug|x86
+		{3D29A1A3-30A1-46C9-8560-336D97A3AFD3}.Debug|x86.Build.0 = Debug|x86
+		{3D29A1A3-30A1-46C9-8560-336D97A3AFD3}.Release|x86.ActiveCfg = Release|x86
+		{3D29A1A3-30A1-46C9-8560-336D97A3AFD3}.Release|x86.Build.0 = Release|x86
+		{3D29A1A3-30A1-46C9-8560-336D97A3AFD3}.AppStore|x86.ActiveCfg = AppStore|x86
+		{3D29A1A3-30A1-46C9-8560-336D97A3AFD3}.AppStore|x86.Build.0 = AppStore|x86
+		{047E9A33-AD18-4440-ADB9-3AE1F7285BED}.Debug|x86.ActiveCfg = Debug|x86
+		{047E9A33-AD18-4440-ADB9-3AE1F7285BED}.Debug|x86.Build.0 = Debug|x86
+		{047E9A33-AD18-4440-ADB9-3AE1F7285BED}.Release|x86.ActiveCfg = Release|x86
+		{047E9A33-AD18-4440-ADB9-3AE1F7285BED}.Release|x86.Build.0 = Release|x86
+		{047E9A33-AD18-4440-ADB9-3AE1F7285BED}.AppStore|x86.ActiveCfg = Release|x86
+		{047E9A33-AD18-4440-ADB9-3AE1F7285BED}.AppStore|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

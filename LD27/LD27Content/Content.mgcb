@@ -1,0 +1,578 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin audio/music/game.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:audio/music/game.mp3
+
+#begin audio/sfx/acid_hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/acid_hit.wav
+
+#begin audio/sfx/bomb_place.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/bomb_place.wav
+
+#begin audio/sfx/collect_health.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/collect_health.wav
+
+#begin audio/sfx/defend.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/defend.wav
+
+#begin audio/sfx/deflect.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/deflect.wav
+
+#begin audio/sfx/door.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/door.wav
+
+#begin audio/sfx/explosion1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/explosion1.wav
+
+#begin audio/sfx/explosion2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/explosion2.wav
+
+#begin audio/sfx/face_die.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/face_die.wav
+
+#begin audio/sfx/face_gun.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/face_gun.wav
+
+#begin audio/sfx/face_missile.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/face_missile.wav
+
+#begin audio/sfx/face_open.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/face_open.wav
+
+#begin audio/sfx/flesh_hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/flesh_hit.wav
+
+#begin audio/sfx/gatling_deflect.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/gatling_deflect.wav
+
+#begin audio/sfx/metal_hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/metal_hit.wav
+
+#begin audio/sfx/ooze_die.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/ooze_die.wav
+
+#begin audio/sfx/ooze_spit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/ooze_spit.wav
+
+#begin audio/sfx/ooze_split.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/ooze_split.wav
+
+#begin audio/sfx/player_hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/player_hit.wav
+
+#begin audio/sfx/raw/acid_hit.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/acid_hit.pkf
+
+#begin audio/sfx/raw/acid_hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/acid_hit.wav
+
+#begin audio/sfx/raw/door-open.flac
+/importer:
+/processor:
+/build:audio/sfx/raw/door-open.flac
+
+#begin audio/sfx/raw/explosion1.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/explosion1.pkf
+
+#begin audio/sfx/raw/explosion1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/explosion1.wav
+
+#begin audio/sfx/raw/explosion2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/explosion2.wav
+
+#begin audio/sfx/raw/face_open.flac
+/importer:
+/processor:
+/build:audio/sfx/raw/face_open.flac
+
+#begin audio/sfx/raw/flesh_hit.aiff
+/importer:
+/processor:
+/build:audio/sfx/raw/flesh_hit.aiff
+
+#begin audio/sfx/raw/flesh_hit.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/flesh_hit.pkf
+
+#begin audio/sfx/raw/head_die.flac
+/importer:
+/processor:
+/build:audio/sfx/raw/head_die.flac
+
+#begin audio/sfx/raw/manhack_grind.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/manhack_grind.wav
+
+#begin audio/sfx/raw/manhack-grind.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/manhack-grind.pkf
+
+#begin audio/sfx/raw/manhack-grind.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/manhack-grind.wav
+
+#begin audio/sfx/raw/mattima-gatling-gun.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/mattima-gatling-gun.mp3
+
+#begin audio/sfx/raw/mattima-missile-fire.flac
+/importer:
+/processor:
+/build:audio/sfx/raw/mattima-missile-fire.flac
+
+#begin audio/sfx/raw/metal_clang_07.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/metal_clang_07.wav
+
+#begin audio/sfx/raw/metal_scrape_heavy_11.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/metal_scrape_heavy_11.pkf
+
+#begin audio/sfx/raw/metal_scrape_heavy_11.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/metal_scrape_heavy_11.wav
+
+#begin audio/sfx/raw/metal-hit(maybe).pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/metal-hit(maybe).pkf
+
+#begin audio/sfx/raw/metal-hit(maybe).wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/metal-hit(maybe).wav
+
+#begin audio/sfx/raw/ooze_die.aif
+/importer:
+/processor:
+/build:audio/sfx/raw/ooze_die.aif
+
+#begin audio/sfx/raw/ooze_die.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/ooze_die.pkf
+
+#begin audio/sfx/raw/ooze_spit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/ooze_spit.wav
+
+#begin audio/sfx/raw/ooze_split.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/ooze_split.wav
+
+#begin audio/sfx/raw/player-bomb-place.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-bomb-place.wav
+
+#begin audio/sfx/raw/player-collect-health.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-collect-health.wav
+
+#begin audio/sfx/raw/player-defending.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/player-defending.pkf
+
+#begin audio/sfx/raw/player-defending.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-defending.wav
+
+#begin audio/sfx/raw/player-gatling-deflect.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-gatling-deflect.wav
+
+#begin audio/sfx/raw/player-hit-flesh.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/player-hit-flesh.pkf
+
+#begin audio/sfx/raw/player-hit-flesh.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-hit-flesh.wav
+
+#begin audio/sfx/raw/player-loud-deflect.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/player-loud-deflect.pkf
+
+#begin audio/sfx/raw/player-loud-deflect.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-loud-deflect.wav
+
+#begin audio/sfx/raw/player-sword1.aif
+/importer:
+/processor:
+/build:audio/sfx/raw/player-sword1.aif
+
+#begin audio/sfx/raw/player-sword2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-sword2.wav
+
+#begin audio/sfx/raw/player-sword3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/raw/player-sword3.wav
+
+#begin audio/sfx/raw/sentinel_shoot.aiff
+/importer:
+/processor:
+/build:audio/sfx/raw/sentinel_shoot.aiff
+
+#begin audio/sfx/raw/sentinel_shoot.pkf
+/importer:
+/processor:
+/build:audio/sfx/raw/sentinel_shoot.pkf
+
+#begin audio/sfx/roomclunk.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/roomclunk.wav
+
+#begin audio/sfx/roomscrape.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/roomscrape.wav
+
+#begin audio/sfx/sentinel_shoot.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/sentinel_shoot.wav
+
+#begin audio/sfx/sword.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/sfx/sword.wav
+
+#begin controls.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:controls.png
+
+#begin dead.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:dead.png
+
+#begin door.vxs
+/importer:
+/processor:
+/build:door.vxs
+
+#begin dude.vxs
+/importer:
+/processor:
+/build:dude.vxs
+
+#begin dynamic.vxs
+/importer:
+/processor:
+/build:dynamic.vxs
+
+#begin enemies/head.vxs
+/importer:
+/processor:
+/build:enemies/head.vxs
+
+#begin enemies/manhack.vxs
+/importer:
+/processor:
+/build:enemies/manhack.vxs
+
+#begin enemies/ooze.vxs
+/importer:
+/processor:
+/build:enemies/ooze.vxs
+
+#begin enemies/sentinel.vxs
+/importer:
+/processor:
+/build:enemies/sentinel.vxs
+
+#begin escape.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:escape.png
+
+#begin exit.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:exit.png
+
+#begin font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:font.spritefont
+
+#begin hud.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:hud.png
+
+#begin progress-green.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:progress-green.png
+
+#begin progress-red.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:progress-red.png
+
+#begin projectiles.vxs
+/importer:
+/processor:
+/build:projectiles.vxs
+
+#begin roomicon.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:roomicon.png
+
+#begin stingers.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:stingers.png
+
+#begin tiles.vxs
+/importer:
+/processor:
+/build:tiles.vxs
+
+#begin timerfont-large.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:timerfont-large.spritefont
+
+#begin timerfont-small.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:timerfont-small.spritefont
+
+#begin title.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:title.png
+
+#begin title-bg.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:title-bg.png
+
+#begin titlesheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:titlesheet.png
+
